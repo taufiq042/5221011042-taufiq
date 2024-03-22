@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(4, 162, 86);
+    background-image: url('pexels-pixabay-268533.jpg');
+}
+nav{
+    /*background-color: rgb(36, 170, 248);*/
+    background-image: linear-gradient(rgb(70, 91, 102), rgb(202, 218, 225),rgb(50, 39, 41));
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 10px;
+}
+#img-logo{
+    width: 100px;
+}
+nav ul li a{
+    color: rgb(114, 14, 14);
+    text-decoration: none;
+    padding: 10px 20px;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+    display: inline;
+    /*margin: 200px;*/
+    align-items: center;
+}
+div img{
+    margin: 100px auto auto 100px;
+    padding: 10px;
+    height: 400px;
+    
+}
+div{
+    display: flex;
+}
+div div1{
+    margin: 100px 300px 400px auto;
+    display: flex;
+    color: rgb(7, 204, 219);
+}
